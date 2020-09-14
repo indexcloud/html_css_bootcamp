@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.header {
+    height: 100vh;
+    width: 200px;
+    background-color: rgb(89, 87, 87);
+    text-align: center;
+    position: fixed;
+}
+
+.main {
+    margin-left: 200px;
+    padding: 25px;
+}
