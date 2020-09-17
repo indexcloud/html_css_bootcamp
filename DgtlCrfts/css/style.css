@@ -1,6 +1,17 @@
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -8,5 +19,47 @@
     background-image: url(../img/atl.png);
     background-size: cover;
     background-position: top;
-    height: 70vh;
+    height: 40vh;
+    position: relative;
+}
+
+.header__nav {
+    position: absolute;
+    right: 4em;
+    top: 1em;
+    font-size: 1.5em;
+    color: white;
+}
+
+.header__nav ul li {
+    display: inline-block;
+    padding-right: 2em;
+}
+
+.main {
+    width: 100%;
+    height: 40vh;
+    
+}
+
+.main__title {
+    text-align: center;
+}
+
+.main__logobox {
+    text-align: center;
+}
+
+.main__logobox--at,
+.main__logobox--hashtag, 
+.main__logobox--dollar  {
+    display: inline-block;
+    width: 30%;
+    height: 90%;
+}
+
+
+
+.footer {
+    height: 20vh;
 }

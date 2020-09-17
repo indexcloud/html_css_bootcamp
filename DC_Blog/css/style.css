@@ -43,6 +43,11 @@ header {
     padding-right: 10px;
 }
 
+.header-nav li a {
+    text-decoration: none;
+    color: rgb(123, 118, 118);
+}
+
 main {
     margin: 75px 50px 25px 50px;
     text-align: center;
@@ -63,6 +68,11 @@ main {
     color: white;
     padding: 2px 20px;
     margin-bottom: 25px;
+}
+
+.main-follow a {
+    text-decoration: none;
+    color: white;
 }
 
 .main-p {
@@ -98,10 +108,14 @@ footer {
     padding-right: 30px;
 }
 
+.footer-nav li a {
+    text-decoration: none;
+    color: rgb(123, 118, 118);
+}
+
 .footer-copyright {
-    float: none;
+    padding-top: 45px;
     text-align: center;
-    padding-top: 75px;
     font-size: 12px;
 }
 
